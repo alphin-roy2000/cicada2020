@@ -45,9 +45,9 @@ html::-webkit-scrollbar-thumb {
     linear,
     left bottom,
     left top,
-    color-stop(0.44, rgb(182, 7, 7)),
-    color-stop(0.72, rgb(213, 8, 8)),
-    color-stop(0.86, rgb(148, 28, 28))
+    color-stop(0.44, rgb(255, 249, 68)),
+    color-stop(0.72, rgb(201, 156, 6)),
+    color-stop(0.86, rgb(255, 221, 31))
   );
 }
 @font-face {
@@ -74,8 +74,8 @@ html::-webkit-scrollbar-thumb {
   font-style: normal;
 }
 @font-face {
-  font-family: "pixelhack";
-  src: url(../fonts/pixelhack.ttf);
+  font-family: "typewriter";
+  src: url(../fonts/typewriter.otf);
 }
 .copyright-text {
   font-weight: 400;
@@ -85,7 +85,7 @@ html::-webkit-scrollbar-thumb {
   color: #c10303;
 }
 :root {
-  --primary-color: #c10303;
+  --primary-color: #fee715;
   --white-color: #ffffff;
   --dark-color: #171819;
   --about-bg-color: #f9f9f9;
@@ -94,7 +94,7 @@ html::-webkit-scrollbar-thumb {
   --link-color: #404040;
   --p-color: #666262;
 
-  --base-font-family: "Plain", sans-serif;
+  --base-font-family: "typewriter", sans-serif;
   --font-weight-bold: bold;
   --font-weight-normal: normal;
   --font-weight-light: 300;
@@ -117,7 +117,7 @@ html::-webkit-scrollbar-thumb {
 body {
   background: var(--white-color);
   font-family: var(--base-font-family);
-  background-color: #141414;
+  background-color: #101820;
 }
 
 /*---------------------------------------
@@ -326,7 +326,7 @@ a:hover span {
 
   line-height: normal;
   padding-top: 0;
-  font-family: "pixelhack";
+  font-family: "typewriter";
 }
 .navbar-brand span {
   color: #c10303;
@@ -334,10 +334,11 @@ a:hover span {
 
 .nav-item .nav-link {
   display: block;
+  /* font-family: "typewriter"; */
   color: var(--white-color);
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-normal);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   padding: 2px 6px;
 }
 
