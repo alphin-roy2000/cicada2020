@@ -77,17 +77,18 @@ html::-webkit-scrollbar-thumb {
   font-family: "typewriter";
   src: url(../fonts/typewriter.otf);
 }
-.copyright-text {
+.copyright-text,
+.copyright-text .cpy {
   font-weight: 400;
   color: #efebeb;
 }
 .copyright-text span {
-  color: #c10303;
+  color: var(--primary-color);
 }
 :root {
   --primary-color: #fee715;
   --white-color: #ffffff;
-  --dark-color: #171819;
+  --dark-color: #101820;
   --about-bg-color: #f9f9f9;
 
   --gray-color: #909090;
@@ -329,7 +330,7 @@ a:hover span {
   font-family: "typewriter";
 }
 .navbar-brand span {
-  color: #c10303;
+  color: var(--primary-color);
 }
 
 .nav-item .nav-link {
